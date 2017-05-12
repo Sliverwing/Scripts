@@ -17,7 +17,7 @@ source ~/.bash_profile
 brew install homebrew/php/composer
 
 # set up composer mirror
-composer config -g repo.packagist composer https://packagist.phpcomposer.com
+composer config -g repo.packagist composer https://packagist.laravel-china.org
 
 # set up PATH
 echo 'export PATH=$PATH:~/.composer/vendor/bin' >> ~/.zshrc
