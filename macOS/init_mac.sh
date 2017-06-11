@@ -14,6 +14,7 @@ echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 source ~/.bash_profile
 
 # install brew packages
+brew install php71
 brew install homebrew/php/composer
 
 # set up composer mirror
