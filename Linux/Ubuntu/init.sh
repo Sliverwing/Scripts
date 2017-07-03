@@ -7,3 +7,6 @@ sudo apt install git -y
 # Git Configuration
 git config --global user.name Sliverwing
 git config --global user.email tlv591208510@gmail.com
+# oh-my-zsh
+sudo apt install zsh -y
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
