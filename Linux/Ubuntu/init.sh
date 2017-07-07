@@ -1,6 +1,7 @@
 # Mirror
 sudo cp /etc/apt/sources.list /etc/apt/source.list.back
-sudo sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
+sudo sed -i 's/cn.archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
+sudo sed -i 's/arhive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
 sudo apt update
 # Install Git
 sudo apt install git -y
