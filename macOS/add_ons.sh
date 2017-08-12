@@ -13,4 +13,4 @@ brew cask install visual-studio-code
 
 # proxy
 echo "socksParentProxy=localhost:1080" > /usr/local/etc/polipo.conf
-echo "alias polipo=\"polipo -c /var/local/etc/polipo.conf\"" >> ~/.zshrc
+echo "alias polipo=\"polipo -c /usr/local/etc/polipo.conf\"" >> ~/.zshrc
